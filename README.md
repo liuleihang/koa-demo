@@ -1,5 +1,7 @@
 # koa-demo
-some examples of koa
+​	koa 是由 Express 原班人马打造的，致力于成为一个更小、更富有表现力、更健壮的 Web 框架。 使用 koa 编写 web 应用，通过组合不同的 generator，可以免除重复繁琐的回调函数嵌套， 并极大地提升错误处理的效率。koa 不在内核方法中绑定任何中间件， 它仅仅提供了一个轻量优雅的函数库，使得编写 Web 应用变得得心应手。
+
+​	之前只是停留在看一下，真正写过一写例子之后才算开始入门，在这里把自己写的demo记录了下来。
 
 ## 环境搭建
 Koa 依赖 node v7.6.0 或 ES2015及更高版本和 async 方法支持，你可以使用自己喜欢的版本管理器快速安装支持的 node 版本。
@@ -243,8 +245,7 @@ console.log("koa is listening port 3000!")
       { host: '127.0.0.1:3000',
         connection: 'keep-alive',
         'upgrade-insecure-requests': '1',
-        'user-agent': 'Mozilla/5.0 (Windows NT
-10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
         accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
         'accept-encoding': 'gzip, deflate, br',        'accept-language': 'zh-CN,zh;q=0.9' } },
   response: { status: 404, message: 'Not Found', header: {} },
@@ -503,6 +504,7 @@ console.log("koa is listening port 3000!")
 
 
 参考
+
 http://www.ruanyifeng.com/blog/2017/08/koa.html
 
 http://book.apebook.org/minghe/koa-action/start/log.html
